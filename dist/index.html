@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>PW Skills</title>
+  </head>
+  <body class="bg-slate-950">
+    <!-- Navbar Goes Here.. -->
+    <nav
+      class="w-full bg-indigo-400 h-14 flex justify-between px-4 md:px-44 items-center"
+    >
+      <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+      <ul class="md:flex hidden font-semibold">
+        <li class="mx-[10px]"><a href="#">Home</a></li>
+        <li class="mx-[10px]"><a href="#">About Us</a></li>
+        <li class="mx-[10px]"><a href="#">Contact Us</a></li>
+      </ul>
+      <button
+        class="hidden md:block px-3 py-1.5 bg-indigo-700 text-white rounded-2xl font-bold"
+      >
+        Login/Signup
+      </button>
+      <div class="md:hidden">
+        <a href="#" id="menu-toggle" class="text-2xl fas fa-bars"></a>
+      </div>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-indigo-500 font-semibold">
+      <ul class="flex flex-col items-center py-4">
+        <li class="py-2"><a href="#">Home</a></li>
+        <li class="py-2"><a href="#">About Us</a></li>
+        <li class="py-2"><a href="#">Contact Us</a></li>
+        <li class="py-2">
+          <button
+            class="px-3 py-1.5 bg-indigo-700 text-white rounded-2xl font-bold"
+          >
+            Login/Signup
+          </button>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar Ends Here... -->
+    <script src="./script.js"></script>
+  </body>
+</html>
